@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import './App.css';
 import { connect } from 'react-redux';
+import React from "react";
 
 import { getPosts as getPostsAction, deletePost as deletePostAction } from './redux/modules/posts';
 import Post from './components/Post';
