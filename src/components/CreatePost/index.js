@@ -1,5 +1,6 @@
 import { Form, Input, Button } from 'antd';
 import { connect } from 'react-redux';
+import React from "react";
 
 import { createPost as createPostAction } from '../../redux/modules/posts';
 
