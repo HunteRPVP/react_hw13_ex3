@@ -1,4 +1,5 @@
 import { Card, Button } from 'antd';
+import React from "react";
 
 const Post = ({ id, title, body, deletePost }) => (
   <Card>
